@@ -1,4 +1,4 @@
-# EFAsNoTrackingBenchmark
+# EF AsNoTracking Benchmark
 Yazılım mülakatlarında da sorulan bir kavram olan AsNoTracking nedir, ne işe yarar gibi soruların cevaplarını arayacağız.
 Öncelikle default olarak çalışan Entity Framework’ün Select işlemleri döndürdüğü datayı cachleyerek takibe alır. Bunun sebebi datayı güncelleyip SaveChanges metodunu çağırdığımızda değişikliklerin veritabanına yansımasını sağlamaktır. 
 
